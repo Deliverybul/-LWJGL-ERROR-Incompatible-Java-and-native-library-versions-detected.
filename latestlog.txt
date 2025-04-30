@@ -1,0 +1,250 @@
+--------- Starting game with Launcher Debug!
+Info: Launcher version: gladiolus-20250128-32ff194-v3_openjdk
+Info: Architecture: arm64
+Info: Device model: realme RMX3195
+Info: API version: 33
+Info: Selected Minecraft version: 1.20.1-forge-47.4.0
+Info: Custom Java arguments: ""
+Info: Graphics device: ARM Mali-G52 MC2 (OpenGL ES 3)
+Added custom env: TMPDIR=/data/user/0/net.kdt.pojavlaunch.debug/cache
+Added custom env: AWTSTUB_WIDTH=1536
+Added custom env: FORCE_VSYNC=false
+Added custom env: POJAV_NATIVEDIR=/data/app/~~ze6F9hJ-JXbHxrMQAQqelQ==/net.kdt.pojavlaunch.debug-X00jXuDxCJo0jW51ENjkBA==/lib/arm64
+Added custom env: LIBGL_MIPMAP=3
+Added custom env: allow_higher_compat_version=true
+Added custom env: MESA_GLSL_CACHE_DIR=/data/user/0/net.kdt.pojavlaunch.debug/cache
+Added custom env: HOME=/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files
+Added custom env: PATH=/data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/bin:/product/bin:/apex/com.android.runtime/bin:/apex/com.android.art/bin:/system_ext/bin:/system/bin:/system/xbin:/odm/bin:/vendor/bin:/vendor/xbin
+Added custom env: LIBGL_NOINTOVLHACK=1
+Added custom env: force_glsl_extensions_warn=true
+Added custom env: LIBGL_NORMALIZE=1
+Added custom env: LD_LIBRARY_PATH=/data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/jli:/data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib:/system/lib64:/vendor/lib64:/vendor/lib64/hw:/data/app/~~ze6F9hJ-JXbHxrMQAQqelQ==/net.kdt.pojavlaunch.debug-X00jXuDxCJo0jW51ENjkBA==/lib/arm64
+Added custom env: LIBGL_NOERROR=1
+Added custom env: POJAV_RENDERER=opengles2
+Added custom env: LIBGL_ES=2
+Added custom env: VTEST_SOCKET_NAME=/data/user/0/net.kdt.pojavlaunch.debug/cache/.virgl_test
+Added custom env: MESA_LOADER_DRIVER_OVERRIDE=zink
+Added custom env: JAVA_HOME=/data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17
+Added custom env: allow_glsl_extension_directive_midshader=true
+Added custom env: AWTSTUB_HEIGHT=720
+Initialising gl4es
+v1.1.5 built on Jul 14 2024 19:34:14
+Using GLES 2.0 backend
+loaded: libGLESv2.so
+loaded: libEGL.so
+Using GLES 2.0 backend
+Hardware Full NPOT detected and used
+Extension GL_EXT_blend_minmax  detected and used
+FBO are in core, and so used
+PointSprite are in core, and so used
+CubeMap are in core, and so used
+BlendColor is in core, and so used
+Blend Subtract is in core, and so used
+Blend Function and Equation Separation is in core, and so used
+Texture Mirrored Repeat is in core, and so used
+Extension GL_OES_mapbuffer  detected
+Extension GL_OES_element_index_uint  detected and used
+Extension GL_OES_packed_depth_stencil  detected and used
+Extension GL_OES_depth24  detected and used
+Extension GL_OES_rgb8_rgba8  detected and used
+Extension GL_EXT_texture_format_BGRA8888  detected and used
+Extension GL_OES_depth_texture  detected and used
+Extension GL_OES_texture_stencil8  detected and used
+Extension GL_EXT_texture_rg  detected and used
+Extension GL_EXT_color_buffer_float  detected and used
+Extension GL_EXT_color_buffer_half_float  detected and used
+high precision float in fragment shader available and used
+Max vertex attrib: 32
+Extension GL_OES_standard_derivatives  detected and used
+Extension GL_ARM_shader_framebuffer_fetch detected and used
+Extension GL_OES_get_program_binary  detected and used
+Number of supported Program Binary Format: 1
+Max texture size: 16383
+Max Varying Vector: 31
+Texture Units: 16/16 (hardware: 16), Max lights: 8, Max planes: 6
+Extension GL_EXT_texture_filter_anisotropic  detected and used
+Max Anisotropic filtering: 16
+Hardware vendor is ARM
+GLSL 300 es supported
+GLSL 310 es supported and used
+GLSL 320 es supported
+Max Color Attachments: 4 / Draw buffers: 4
+sRGB surface supported
+EGLImage to Texture2D supported
+EGLImage to RenderBuffer supported
+ignore MipMap
+glGetError() always return GL_NOERROR
+Targeting OpenGL 2.1
+No hack in shader converter to define overloaded function with int
+Not trying to batch small subsequent glDrawXXXX
+try to use VBO
+glXMakeCurrent FBO workaround enabled
+FBO workaround for using binded texture enabled
+Force texture for Attachment color0 on FBO
+Hack to trigger a SwapBuffers when a Full Framebuffer Blit on default FBO is done
+Force normals to be normalized on FPE shaders
+glX Will try to recycle EGL Surface
+Current folder is:/
+--------- beginning of main
+D/jrelog  (23404): dlopen libgl4es_114.so success
+
+D/jrelog  (23404): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libjli.so success
+
+E/jrelog  (23404): dlopen libjvm.so failed: dlopen failed: library "libjvm.so" not found
+
+D/jrelog  (23404): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/server/libjvm.so success
+
+D/jrelog  (23404): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libverify.so success
+
+D/jrelog  (23404): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libjava.so success
+
+D/jrelog  (23404): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libnet.so success
+
+D/jrelog  (23404): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libnio.so success
+
+D/jrelog  (23404): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libawt.so success
+
+D/jrelog  (23404): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libawt_headless.so success
+
+D/jrelog  (23404): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libfreetype.so success
+
+D/jrelog  (23404): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libfontmanager.so success
+
+D/jrelog  (23404): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libzip.so success
+
+D/jrelog  (23404): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libsctp.so success
+
+D/jrelog  (23404): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libjawt.so success
+
+D/jrelog  (23404): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libawt.so success
+
+D/jrelog  (23404): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libjimage.so success
+
+D/jrelog  (23404): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libmanagement.so success
+
+D/jrelog  (23404): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/librmi.so success
+
+D/jrelog  (23404): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libmanagement_agent.so success
+
+D/jrelog  (23404): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/server/libjvm.so success
+
+D/jrelog  (23404): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/server/libjsig.so success
+
+D/jrelog  (23404): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/liblcms.so success
+
+D/jrelog  (23404): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libmanagement_ext.so success
+
+D/jrelog  (23404): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libjsig.so success
+
+D/jrelog  (23404): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libdt_socket.so success
+D/jrelog  (23404): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libnet.so success
+
+D/jrelog  (23404): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libjli.so success
+D/jrelog  (23404): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libfreetype.so success
+D/jrelog  (23404): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libawt_headless.so success
+
+D/jrelog  (23404): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libjdwp.so success
+
+D/jrelog  (23404): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libjavajpeg.so success
+
+D/jrelog  (23404): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libmlib_image.so success
+
+D/jrelog  (23404): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libinstrument.so success
+
+D/jrelog  (23404): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libfontmanager.so success
+D/jrelog  (23404): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libverify.so success
+
+D/jrelog  (23404): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libj2pkcs11.so success
+
+D/jrelog  (23404): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libjaas.so success
+
+D/jrelog  (23404): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libextnet.so success
+
+D/jrelog  (23404): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libprefs.so success
+
+D/jrelog  (23404): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libjava.so success
+
+D/jrelog  (23404): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libnio.so success
+
+D/jrelog  (23404): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libj2gss.so success
+
+D/jrelog  (23404): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libawt_xawt.so success
+
+D/jrelog  (23404): dlopen /data/app/~~ze6F9hJ-JXbHxrMQAQqelQ==/net.kdt.pojavlaunch.debug-X00jXuDxCJo0jW51ENjkBA==/lib/arm64/libopenal.so success
+
+D/jrelog  (23404): Done processing args
+
+D/jrelog  (23404): Found JLI lib
+D/jrelog  (23404): Calling JLI_Launch
+
+2025-05-01 01:20:17,456 main ERROR appender Console has no parameter that matches element Policies
+[01:20:17] [main/INFO]: ModLauncher running: args [--username, Brian, --version, 1.20.1, --gameDir, /storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/./.minecraft/versions/1.20.1-forge-47.4.0, --assetsDir, /storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/assets, --assetIndex, 5, --uuid, 00000000000000000000000000000000, --accessToken, ❄❄❄❄❄❄❄❄, --clientId, ${clientid}, --xuid, , --userType, msa, --versionType, release, --launchTarget, forgeclient, --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[01:20:17] [main/INFO]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14-internal by N/A; OS Linux arch aarch64 version Android-13
+[01:20:24] [main/INFO]: Loading ImmediateWindowProvider fmlearlywindow
+Registered forkAndExec
+[LWJGL] [ERROR] Incompatible Java and native library versions detected.
+Possible reasons:
+	a) -Djava.library.path is set to a folder containing shared libraries of an older LWJGL version.
+	b) The classpath contains jar files of an older LWJGL version.
+Possible solutions:
+	a) Make sure to not set -Djava.library.path (it is not needed for developing with LWJGL 3) or make
+	   sure the folder it points to contains the shared libraries of the correct LWJGL version.
+	b) Check the classpath and make sure to only have jar files of the same LWJGL version in it.
+[LWJGL] Failed to load a library. Possible solutions:
+	a) Add the directory that contains the shared library to -Djava.library.path or -Dorg.lwjgl.librarypath.
+	b) Add the JAR that contains the shared library to the classpath.
+[LWJGL] Enable debug mode with -Dorg.lwjgl.util.Debug=true for better diagnostics.
+[LWJGL] Enable the SharedLibraryLoader debug mode with -Dorg.lwjgl.util.DebugLoader=true for better diagnostics.
+[01:20:24] [main/INFO]: Trying GL version 4.6
+EGLBridge: Binding to OpenGL ES
+[01:20:24] [main/INFO]: Requested GL version 4.6 got version 0.0
+GLFW: Set size for window 475144458176, width=1536, height=720
+[LWJGL] [ERROR] Incompatible Java and native library versions detected.
+Possible reasons:
+	a) -Djava.library.path is set to a folder containing shared libraries of an older LWJGL version.
+	b) The classpath contains jar files of an older LWJGL version.
+Possible solutions:
+	a) Make sure to not set -Djava.library.path (it is not needed for developing with LWJGL 3) or make
+	   sure the folder it points to contains the shared libraries of the correct LWJGL version.
+	b) Check the classpath and make sure to only have jar files of the same LWJGL version in it.
+[01:20:24] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%23114!/ Service=ModLauncher Env=CLIENT
+[01:20:24] [pool-2-thread-1/INFO]: GL info: Mali-G52 MC2 GL version 2.1 gl4es wrapper 1.1.5, PojavLauncherTeam & ptitSeb
+Thread[pool-2-thread-1,5,main]: No context is current or a function that is not available in the current context was called. Are you running essential and/or <1.13?
+Thread[pool-2-thread-1,5,main]: No context is current or a function that is not available in the current context was called. Are you running essential and/or <1.13?
+[LWJGL] [ERROR] Incompatible Java and native library versions detected.
+Possible reasons:
+	a) -Djava.library.path is set to a folder containing shared libraries of an older LWJGL version.
+	b) The classpath contains jar files of an older LWJGL version.
+Possible solutions:
+	a) Make sure to not set -Djava.library.path (it is not needed for developing with LWJGL 3) or make
+	   sure the folder it points to contains the shared libraries of the correct LWJGL version.
+	b) Check the classpath and make sure to only have jar files of the same LWJGL version in it.
+[01:20:26] [main/INFO]: Found mod file almanac-1.20.x-forge-1.0.2.jar of type MOD with provider {mods folder locator at /storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/versions/1.20.1-forge-47.4.0/mods}
+[01:20:26] [main/INFO]: Found mod file appleskin-forge-mc1.20.1-2.5.1.jar of type MOD with provider {mods folder locator at /storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/versions/1.20.1-forge-47.4.0/mods}
+[01:20:26] [main/INFO]: Found mod file architectury-9.2.14-forge.jar of type MOD with provider {mods folder locator at /storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/versions/1.20.1-forge-47.4.0/mods}
+[01:20:26] [main/INFO]: Found mod file athena-forge-1.20.1-3.1.2.jar of type MOD with provider {mods folder locator at /storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/versions/1.20.1-forge-47.4.0/mods}
+[01:20:26] [main/INFO]: Found mod file AttributeFix-Forge-1.20.1-21.0.4.jar of type MOD with provider {mods folder locator at /storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/versions/1.20.1-forge-47.4.0/mods}
+[01:20:26] [main/INFO]: Found mod file balm-forge-1.20.1-7.3.9-all.jar of type MOD with provider {mods folder locator at /storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/versions/1.20.1-forge-47.4.0/mods}
+[01:20:26] [main/INFO]: Found mod file BetterAnimationsCollection-v8.0.0-1.20.1-Forge.jar of type MOD with provider {mods folder locator at /storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/versions/1.20.1-forge-47.4.0/mods}
+[01:20:26] [main/INFO]: Found mod file betterchunkloading-1.20.1-5.4.jar of type MOD with provider {mods folder locator at /storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/versions/1.20.1-forge-47.4.0/mods}
+[01:20:26] [main/INFO]: Found mod file BetterFog-1.20.1-1.2.2.jar of type MOD with provider {mods folder locator at /storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/versions/1.20.1-forge-47.4.0/mods}
+[01:20:26] [main/INFO]: Found mod file betterfpsdist-1.20.1-6.0.jar of type MOD with provider {mods folder locator at /storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/versions/1.20.1-forge-47.4.0/mods}
+[01:20:26] [main/INFO]: Found mod file bobberdetector-0.1.9-1.20.1.jar of type MOD with provider {mods folder locator at /storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/versions/1.20.1-forge-47.4.0/mods}
+[01:20:26] [main/INFO]: Found mod file Bookshelf-Forge-1.20.1-20.2.13.jar of type MOD with provider {mods folder locator at /storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/versions/1.20.1-forge-47.4.0/mods}
+[01:20:26] [main/INFO]: Found mod file callablehorses-1.20.1-1.3.0.1.jar of type MOD with provider {mods folder locator at /storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/versions/1.20.1-forge-47.4.0/mods}
+[01:20:26] [main/INFO]: Found mod file canary-mc1.20.1-0.3.3.jar of type MOD with provider {mods folder locator at /storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/versions/1.20.1-forge-47.4.0/mods}
+[01:20:26] [main/INFO]: Found mod file carryon-forge-1.20.1-2.1.2.7.jar of type MOD with provider {mods folder locator at /storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/versions/1.20.1-forge-47.4.0/mods}
+[01:20:26] [main/INFO]: Found mod file chipped-forge-1.20.1-3.0.7.jar of type MOD with provider {mods folder locator at /storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/versions/1.20.1-forge-47.4.0/mods}
+[01:20:26] [main/INFO]: Found mod file chunksending-1.20.1-2.8.jar of type MOD with provider {mods folder locator at /storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/versions/1.20.1-forge-47.4.0/mods}
+[01:20:26] [main/INFO]: Found mod file clockwork-1.20.1-0.1.16-forge-b3b22e39fe.jar of type MOD with provider {mods folder locator at /storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/versions/1.20.1-forge-47.4.0/mods}
+[01:20:26] [main/INFO]: Found mod file clockworklib-1.20.1-1.0.0.jar of type MOD with provider {mods folder locator at /storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/versions/1.20.1-forge-47.4.0/mods}
+[01:20:26] [main/INFO]: Found mod file cloth-config-11.1.136-forge.jar of type MOD with provider {mods folder locator at /storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/versions/1.20.1-forge-47.4.0/mods}
+[01:20:26] [main/INFO]: Found mod file Clumps-forge-1.20.1-12.0.0.4.jar of type MOD with provider {mods folder locator at /storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/versions/1.20.1-forge-47.4.0/mods}
+[01:20:26] [main/INFO]: Found mod file collective-1.20.1-7.87.jar of type MOD with provider {mods folder locator at /storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/versions/1.20.1-forge-47.4.0/mods}
+[01:20:26] [main/INFO]: Found mod file comforts-forge-6.4.0+1.20.1.jar of type MOD with provider {mods folder locator at /storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/versions/1.20.1-forge-47.4.0/mods}
+[01:20:26] [main/INFO]: Found mod file connectivity-1.20.1-5.6.jar of type MOD with provider {mods folder locator at /storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/versions/1.20.1-forge-47.4.0/mods}
+[01:20:26] [main/INFO]: Found mod file Controlling-forge-1.20.1-12.0.2.jar of type MOD with provider {mods folder locator at /storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/versions/1.20.1-forge-47.4.0/mods}
+[01:20:26] [main/INFO]: Found mod file copycats-2.1.4+mc.1.20.1-forge.jar of type MOD with provider {mods folder locator at /storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/versions/1.20.1-forge-47.4.0/mods}
+[01:20:26] [main/INFO]: Found mod file corpse-forge-1.20.1-1.0.17.jar of type MOD with provider {mods folder locator at /storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/versions/1.20.1-forge-47.4.0/mods}
+[01:20:26] [main/INFO]: Found mod file cosmeticarmorreworked-1.20.1-v1a.jar of type MOD with provider {mods folder locator at /storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/versions/1.20.1-forge-47.4.0/mods}
+[01:20:26] [main/INFO]: Found mod file craftingtweaks-f
